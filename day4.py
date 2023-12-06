@@ -8,7 +8,6 @@ def main():
                 copies[i] = 1
             line = lines[i-1]
             line = line.strip().split()
-            print(line)
             matches = 0
             win_num = []
             for j in range(2,12):
